@@ -1,0 +1,27 @@
+/**
+ * Breakpoints
+ */
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+
+/**
+ * Mixins
+ */
+
+ @mixin fadeIn {
+    -webkit-animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+     -ms-animation: fadein 1.5s;
+      -o-animation: fadein 1.5s;
+         animation: fadein 1.5s;
+ }
+ 
+ @keyframes fadein {
+   from { opacity: 0 }
+   to   { opacity: 1 }
+}

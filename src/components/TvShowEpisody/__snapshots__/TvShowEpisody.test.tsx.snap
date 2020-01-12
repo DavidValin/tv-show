@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<div
+  className="TvShowEpisody"
+>
+  <img
+    alt="Painbow"
+    className="TvShowEpisody__cover"
+    src="http://static.tvmaze.com/uploads/images/original_untouched/53/132628.jpg"
+  />
+  <div
+    className="TvShowEpisody__details"
+  >
+    <h2
+      className="TvShowEpisody__details__name"
+    >
+      Painbow
+    </h2>
+    <p
+      className="TvShowEpisody__details__summary"
+    >
+      A rainbow causes Townsville to become uncomfortably happy.
+    </p>
+    <a
+      className="TvShowEpisody__go-back"
+      href="/"
+      onClick={[Function]}
+    >
+      go back
+    </a>
+  </div>
+</div>
+`;
